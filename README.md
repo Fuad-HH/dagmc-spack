@@ -1,6 +1,6 @@
 # dagmc-spack
 
-A [Spack](https://spack.io/) repository providing the `dagmc` package with support for CAD-based geometry.
+A [Spack](https://spack.io/) repository providing the [`dagmc`](https://svalinn.github.io/DAGMC/) package for CAD-based geometry.
 
 ## Adding This Repository
 
@@ -24,7 +24,7 @@ spack install dagmc +openmc
 
 ## Note on OpenMC with DAGMC Support
 
-The builtin Spack `openmc` package currently does **not** support the `+dagmc` variant.
+The builtin Spack [`openmc`](https://packages.spack.io/package.html?name=openmc) package currently does **not** support the `+dagmc` variant.
 To use OpenMC with DAGMC (CAD-based particle transport), use the `openmc-pumi` package from the
 [SCOREC/pumi-pic-spack](https://github.com/SCOREC/pumi-pic-spack) external repository instead:
 
